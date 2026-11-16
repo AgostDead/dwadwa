@@ -5359,3 +5359,8 @@ if (v2689 ~= "") then
     end)
 end
 return
+
+-- Вызов основного меню (чтобы оно открылось без ключа)
+if capturedValues1.value4 then 
+    capturedValues1.value4("Bypassed") 
+end
